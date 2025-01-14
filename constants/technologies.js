@@ -1,5 +1,6 @@
 import SqLite from "../public/assets/svg/sqlite.svg";
 import PhpIcon from "../public/assets/svg/php.svg";
+import NestIcon from "../public/assets/svg/nestjs.svg";
 import PostgresIcon from "../public/assets/svg/postgresql.svg";
 import BigqueryIcon from "../public/assets/svg/bigquery.svg";
 import PythonIcon from "../public/assets/svg/python.svg";
@@ -30,7 +31,7 @@ export const TECHNOLOGIES = [
 			{ name: "JS", icon: <JavascriptIcon width={32} height={32} /> },
 			{ name: "Typescript", icon: <TypescriptIcon width={32} height={32} /> },
 			{ name: "React", icon: <ReactIcon width={32} height={32} /> },
-			{ name: "Next", icon: <NextJsIcon width={32} height={32} /> },
+			{ name: "Next JS", icon: <NextJsIcon width={32} height={32} /> },
 			{ name: "Tailwind CSS", icon: <TailwindIcon width={32} height={32} /> },
 			{ name: "MUI", icon: <MuiIcon width={32} /> },
 			{ name: "Bootstrap", icon: <BootstrapIcon width={32} height={32}  /> },
@@ -39,6 +40,7 @@ export const TECHNOLOGIES = [
 	{
 		category: "Back-end",
 		items: [
+			{ name: "Nest JS", icon: <NestIcon width={40} height={40} /> },
 			{ name: "Node JS", icon: <NodeIcon width={32} height={32} /> },
 			{ name: "Python", icon: <PythonIcon width={32} height={32} /> },
 			{ name: "PHP", icon: <PhpIcon width={40} height={40} /> },
